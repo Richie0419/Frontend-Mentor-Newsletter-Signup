@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="news-box-container">
+        <div class="news-box">
+            <div class="left-side">
+                <h1 class="heading">Stay updated!</h1>
+                <p class="details">Join 60,000+ product managers receiving monthly updates on:</p>
+
+                <div class="checked-lists">
+                    <li>Product discovery and building what matters</li>
+                    <li>Measuring to ensure updates are a success</li>
+                    <li>And much more!</li>
+                </div>
+                
+                <form>
+                    <div class="form-error">
+                        <label>Email address</label>
+                        <li id="error">Valid email required !!!</li>
+                    </div>
+                    <input type="email" id="email" placeholder="email@company.com">
+                    <button class="sub-btn" type="submit">Subscribe to monthly newsletter</button>
+                </form>
+            </div>
+
+            <div class="right-side">
+                <div class="news-image">
+                    <img class="desktop-img" src="images/illustration-sign-up-desktop.svg" alt="">
+                    <img class="mobile-img" src="images/illustration-sign-up-mobile.svg" alt="">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card hide">
+        <div class="check-img">
+            <img src="images/icon-success.svg" alt="">
+            <div class="text-details">
+                <h1>Thanks for subscribing!</h1>
+                <p> A confirmation email has been sent to <b id="subscribed-email">ash@loremcompany.com.</b> 
+                    Please open it and click the button inside to confirm your subscription.
+                </p>
+                <button class="dismiss-btn">Dismiss message</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
